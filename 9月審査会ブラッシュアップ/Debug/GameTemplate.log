@@ -1,13 +1,8 @@
-﻿2015/10/17 18:07:44 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.vcxproj" (Build ターゲット)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D DEBUG /D _ITERATOR_DEBUG_LEVEL=0 /D PRODUCT_NAME=GameTemplate /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\Player.cpp src\main.cpp
-         Player.cpp
-         main.cpp
-     1>c:\users\vantan\desktop\9月審査会ブラッシュアップ\src\player.h(21): warning C4305: '=' : 'double' から 'float' へ切り詰めます。 (src\Player.cpp)
-     1>c:\users\vantan\desktop\9月審査会ブラッシュアップ\src\player.h(21): warning C4305: '=' : 'double' から 'float' へ切り詰めます。 (src\main.cpp)
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.lib" /MACHINE:X86 Debug\Collision.obj
+﻿2015/10/18 2:15:57 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.vcxproj" (Build ターゲット)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.lib" /MACHINE:X86 Debug\Collision.obj
+         Debug\Gravity.obj
          Debug\appEnv.obj
          Debug\audio.obj
          Debug\camera2D.obj
@@ -30,9 +25,22 @@
          Debug\wav.obj
          Debug\main.obj
          Debug\Player.obj
-         GameTemplate.vcxproj -> C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.exe
-     1>プロジェクト "C:\Users\vantan\Desktop\9月審査会ブラッシュアップ\GameTemplate.vcxproj" (Build ターゲット) のビルドが完了しました。
+         Debug\GWall.obj
+     1>glfw3d.lib(context.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(context.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(init.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(init.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(input.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(input.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(monitor.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(monitor.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(window.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(window.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(win32_init.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(win32_init.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(win32_monitor.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(win32_monitor.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(win32_time.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(win32_time.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(win32_tls.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(win32_tls.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(win32_window.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(win32_window.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(winmm_joystick.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(winmm_joystick.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+     1>glfw3d.lib(wgl_context.obj) : warning LNK4099: PDB 'vc120.pdb' が 'glfw3d.lib(wgl_context.obj)' で、または 'C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\vc120.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+         GameTemplate.vcxproj -> C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.exe
+     1>プロジェクト "C:\Users\vantan\Documents\GitHub\Hikusyon\9月審査会ブラッシュアップ\GameTemplate.vcxproj" (Build ターゲット) のビルドが完了しました。
 
 ビルドに成功しました。
 
-経過時間 00:00:02.90
+経過時間 00:00:00.59

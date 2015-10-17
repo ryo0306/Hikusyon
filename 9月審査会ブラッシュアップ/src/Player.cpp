@@ -7,7 +7,8 @@ void Player::Setup()
 
 void Player::Draw()
 {
-  drawFillBox(pos.x(), pos.y(), size.x(), size.y(), Color::red);
+  drawFillBox(pos.x()-size.x(), pos.y()-size.y(),
+              size.x()*2, size.y()*2, Color::red);
 }
 
 void Player::Update()
@@ -25,6 +26,7 @@ void Player::Update()
   }
 
 }
+
 
 
 void Player::Throw()
@@ -67,21 +69,21 @@ void Player::Throw()
 
       gravity = true;
       throw_active = false;
+      gimmick_is_active = true;
     }
   }
 
 
 }
 
-void Player::Gravity()
-{
-  if (gravity)
-    move.y() -= g;
-}
+
 
 void Player::Move()
 {
   pos += move;
+
+  //  DEBUG:
+  std::cout<< "move: " << move.y() << std::endl;
 }
 
 void Player::RangeSpecification()
@@ -103,12 +105,16 @@ void Player::RangeSpecification()
     pos.y() = -Window::HEIGHT / 2 + size.y();
     move.x() *= ƒÊ;
     move.y() *= -e;
+  //  DEBUG:
+  std::cout << "yuka: " << move.y() << std::endl;
   }
+
 }
 
 void Player::Reset()
 {
   gravity = false;
+  gimmick_is_active = false;
   pos = def_pos;
   move = Vec2f(0, 0);
 }

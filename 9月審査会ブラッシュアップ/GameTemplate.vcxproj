@@ -12,6 +12,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Collision.h" />
+    <ClInclude Include="src\Gimmick.h" />
+    <ClInclude Include="src\Gravity.h" />
     <ClInclude Include="src\lib\appEnv.hpp" />
     <ClInclude Include="src\lib\audio.hpp" />
     <ClInclude Include="src\lib\camera2D.hpp" />
@@ -40,10 +42,11 @@
     <ClInclude Include="src\Player.h" />
     <ClInclude Include="src\SceneManager.h" />
     <ClInclude Include="src\ScreenMake.h" />
-    <ClInclude Include="src\Wall.h" />
+    <ClInclude Include="src\GWall.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Collision.cpp" />
+    <ClCompile Include="src\Gravity.cpp" />
     <ClCompile Include="src\lib\appEnv.cpp" />
     <ClCompile Include="src\lib\audio.cpp" />
     <ClCompile Include="src\lib\camera2D.cpp" />
@@ -66,6 +69,7 @@
     <ClCompile Include="src\lib\wav.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\GWall.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9EFD6A36-08E8-485E-B135-5B6519C0F6B1}</ProjectGuid>

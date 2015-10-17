@@ -129,7 +129,13 @@
     <ClInclude Include="src\Collision.h">
       <Filter>Collision</Filter>
     </ClInclude>
-    <ClInclude Include="src\Wall.h">
+    <ClInclude Include="src\Gimmick.h">
+      <Filter>class\Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gravity.h">
+      <Filter>class\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GWall.h">
       <Filter>class\Object\Gimmick\Wall</Filter>
     </ClInclude>
   </ItemGroup>
@@ -200,6 +206,12 @@
     </ClCompile>
     <ClCompile Include="src\Collision.cpp">
       <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gravity.cpp">
+      <Filter>class\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GWall.cpp">
+      <Filter>class\Object\Gimmick\Wall</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
