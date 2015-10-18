@@ -1,6 +1,8 @@
 ﻿#include "Player.h"
 #include "GWall.h"
 #include "Gravity.h"
+#include "GStage.h"
+
 
 int main() {
 
@@ -8,6 +10,8 @@ int main() {
 
   Player player(Vec2f(0.0f,0.0f),Vec2f(100,100),0.8f,300.0f);
   Wall wall(Vec2f(-1000, -100), Vec2f(2000, 200), 0.8f);
+  Stage stage(Vec2f(200, 200), Vec2f(100, 100));
+
 
   while (env.isOpen()) {
   
@@ -19,11 +23,18 @@ int main() {
     {
       player.SetMove(Gravity(player.GetMove()));
     }*/
-    wall.Update(player);
     player.Update();
+    wall.Update(player);
+    stage.Update(player);
     
-    player.Draw();
+    stage.Draw();
     wall.Draw();
+    player.Draw();
+    
+    if (stage.IsGoal())
+    {
+      break;
+    }
 
     env.end();
   }

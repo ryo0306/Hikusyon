@@ -16,7 +16,6 @@ void Player::Update()
   mouse_pos = env.mousePosition();
 
   Throw();
-  RangeSpecification();
   Gravity();
   Move();
 
@@ -73,10 +72,7 @@ void Player::Throw()
     }
   }
 
-
 }
-
-
 
 void Player::Move()
 {
@@ -84,31 +80,6 @@ void Player::Move()
 
   //  DEBUG:
   std::cout<< "move: " << move.y() << std::endl;
-}
-
-void Player::RangeSpecification()
-{
-  if (pos.x() > Window::WIDTH / 2 + size.x())
-  {
-    pos.x() = Window::WIDTH / 2 + size.x();
-    move.x() = -e*move.x();
-  }
-
-  if (pos.x() < -Window::WIDTH/2 - size.x())
-  {
-    pos.x() = -Window::WIDTH / 2 - size.x();
-    move.x() = -e*move.x();
-  }
-
-  if (pos.y() <= -Window::HEIGHT / 2 + size.y())
-  {
-    pos.y() = -Window::HEIGHT / 2 + size.y();
-    move.x() *= ƒÊ;
-    move.y() *= -e;
-  //  DEBUG:
-  std::cout << "yuka: " << move.y() << std::endl;
-  }
-
 }
 
 void Player::Reset()

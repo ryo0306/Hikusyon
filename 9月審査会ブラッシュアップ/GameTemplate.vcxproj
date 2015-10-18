@@ -14,6 +14,7 @@
     <ClInclude Include="src\Collision.h" />
     <ClInclude Include="src\Gimmick.h" />
     <ClInclude Include="src\Gravity.h" />
+    <ClInclude Include="src\GStage.h" />
     <ClInclude Include="src\lib\appEnv.hpp" />
     <ClInclude Include="src\lib\audio.hpp" />
     <ClInclude Include="src\lib\camera2D.hpp" />
@@ -70,6 +71,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\GWall.cpp" />
+    <ClCompile Include="src\GStage.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9EFD6A36-08E8-485E-B135-5B6519C0F6B1}</ProjectGuid>

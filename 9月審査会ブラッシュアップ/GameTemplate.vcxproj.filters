@@ -138,6 +138,9 @@
     <ClInclude Include="src\GWall.h">
       <Filter>class\Object\Gimmick\Wall</Filter>
     </ClInclude>
+    <ClInclude Include="src\GStage.h">
+      <Filter>class\Object\Gimmick\Stage</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">
@@ -212,6 +215,9 @@
     </ClCompile>
     <ClCompile Include="src\GWall.cpp">
       <Filter>class\Object\Gimmick\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GStage.cpp">
+      <Filter>class\Object\Gimmick\Stage</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

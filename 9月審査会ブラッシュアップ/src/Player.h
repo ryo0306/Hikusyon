@@ -32,8 +32,6 @@ public:
   
 private:
 
-  //  ”ÍˆÍw’è    
-  void RangeSpecification();
 
   Vec2f def_pos;           //  ‰ŠúˆÊ’u
   float e;                 //  ”½”­ŒW”
