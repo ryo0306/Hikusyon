@@ -7,8 +7,12 @@ void Player::Setup()
 
 void Player::Draw()
 {
-  drawFillBox(pos.x()-size.x(), pos.y()-size.y(),
-              size.x()*2, size.y()*2, Color::red);
+  //drawFillBox(pos.x()-size.x(), pos.y()-size.y(),
+   //           size.x()*2, size.y()*2, Color::red);
+
+  drawFillCircle(pos.x(), pos.y(),
+                 size.x(), size.y(), 20, Color::red);
+
 }
 
 void Player::Update()
@@ -48,7 +52,7 @@ void Player::Throw()
   //  îÕàÕäOÇ…ÇÕéùÇ¡ÇƒÇ¢ÇØÇ»Ç¢
   if (throw_active)
   {
-    if (!CircleCollision(mouse_pos, Vec2f(1, 1),
+    if (!CircleCollision(mouse_pos, Vec2f(0, 0),
       def_pos, Vec2f(power_limit, power_limit)))
     {
       pos.x() = def_pos.x() + power_limit * -cos(throw_angle);

@@ -1,6 +1,7 @@
 #pragma once
 #include "Gimmick.h"
 
+
 class Stage : public Gimmick
 {
 public:

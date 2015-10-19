@@ -141,6 +141,9 @@
     <ClInclude Include="src\GStage.h">
       <Filter>class\Object\Gimmick\Stage</Filter>
     </ClInclude>
+    <ClInclude Include="src\GGravity.h">
+      <Filter>class\Object\Gimmick\Gravity</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\lib\appEnv.cpp">

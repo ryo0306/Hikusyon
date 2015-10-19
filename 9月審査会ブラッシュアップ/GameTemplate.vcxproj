@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Collision.h" />
+    <ClInclude Include="src\GGravity.h" />
     <ClInclude Include="src\Gimmick.h" />
     <ClInclude Include="src\Gravity.h" />
     <ClInclude Include="src\GStage.h" />

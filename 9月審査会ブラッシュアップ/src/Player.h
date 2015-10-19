@@ -16,7 +16,7 @@ public:
     def_pos = def_pos_;
     size = size_;
     e = e_;
-    power_limit_ = power_limit_;
+    power_limit = power_limit_;
     pos = def_pos;
     move = Vec2f(0, 0);
     throw_active = false;
